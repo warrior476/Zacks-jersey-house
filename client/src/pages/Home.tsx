@@ -14,10 +14,10 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 function HeroSection() {
   const [currentJersey, setCurrentJersey] = useState(0);
   const featuredJerseys = [
-    { name: "Manchester United", league: "Premier League", price: 170, image: "/manus-storage/jersey-manchester-united_b2e4f67c.png" },
-    { name: "Ghana National Team", league: "AFCON", price: 170, image: "/manus-storage/jersey-ghana_3fca1d37.png" },
-    { name: "Real Madrid", league: "La Liga", price: 150, image: "/manus-storage/jersey-real-madrid_0403f633.png" },
-    { name: "PSG", league: "Ligue 1", price: 150, image: "/manus-storage/jersey-psg_45defcff.png" },
+    { name: "Manchester United", league: "Premier League", price: 170, image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&q=80&auto=format&fit=crop" },
+    { name: "Ghana National Team", league: "AFCON", price: 170, image: "https://images.unsplash.com/photo-1551854838-212c9a5b7b24?w=400&q=80&auto=format&fit=crop" },
+    { name: "Real Madrid", league: "La Liga", price: 150, image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&q=80&auto=format&fit=crop" },
+    { name: "PSG", league: "Ligue 1", price: 150, image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&q=80&auto=format&fit=crop" },
   ];
 
   useEffect(() => {
@@ -221,14 +221,14 @@ function FeaturedSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const jerseys = [
-    { name: "Ghana National Team", league: "AFCON", price: 170, image: "/manus-storage/jersey-ghana_3fca1d37.png" },
-    { name: "Liverpool FC", league: "Premier League", price: 150, image: "/manus-storage/jersey-liverpool_5dd58133.png" },
-    { name: "PSG", league: "Ligue 1", price: 150, image: "/manus-storage/jersey-psg_45defcff.png" },
-    { name: "Arsenal FC", league: "Premier League", price: 150, image: "/manus-storage/jersey-arsenal_4b84612a.png" },
-    { name: "Juventus", league: "Serie A", price: 140, image: "/manus-storage/jersey-juventus_f6bb352c.png" },
-    { name: "FC Barcelona", league: "La Liga", price: 150, image: "/manus-storage/jersey-barcelona_95a64654.png" },
-    { name: "Chelsea FC", league: "Premier League", price: 140, image: "/manus-storage/jersey-chelsea_811dc0c3.png" },
-    { name: "Bayern Munich", league: "Bundesliga", price: 150, image: "/manus-storage/jersey-bayern_3d372e30.png" },
+    { name: "Ghana National Team", league: "AFCON", price: 170, image: "https://images.unsplash.com/photo-1551854838-212c9a5b7b24?w=400&q=80&auto=format&fit=crop" },
+    { name: "Liverpool FC", league: "Premier League", price: 150, image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=400&q=80&auto=format&fit=crop" },
+    { name: "PSG", league: "Ligue 1", price: 150, image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&q=80&auto=format&fit=crop" },
+    { name: "Arsenal FC", league: "Premier League", price: 150, image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=400&q=80&auto=format&fit=crop" },
+    { name: "Juventus", league: "Serie A", price: 140, image: "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=400&q=80&auto=format&fit=crop" },
+    { name: "FC Barcelona", league: "La Liga", price: 150, image: "https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=400&q=80&auto=format&fit=crop" },
+    { name: "Chelsea FC", league: "Premier League", price: 140, image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=400&q=80&auto=format&fit=crop" },
+    { name: "Bayern Munich", league: "Bundesliga", price: 150, image: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=400&q=80&auto=format&fit=crop" },
   ];
 
   return (
