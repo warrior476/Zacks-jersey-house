@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
       className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full px-5 py-3 shadow-xl shadow-emerald-500/30 transition-all duration-200 active:scale-[0.95] group"
     >
       <MessageCircle size={20} className="group-hover:rotate-12 transition-transform" />
-      <span className="text-sm font-semibold hidden sm:inline">Order Now</span>
+      <span className="text-sm font-semibold">Order Now</span>
     </motion.a>
   );
 }
