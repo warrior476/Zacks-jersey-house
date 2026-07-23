@@ -224,11 +224,11 @@ function FeaturedSection() {
     { name: "Ghana National Team", league: "AFCON", price: 170, image: "https://i.ibb.co/7xXyNJBM/s-l1600.jpg" },
     { name: "Liverpool FC", league: "Premier League", price: 150, image: "https://i.ibb.co/n81t1mRk/lc-25-26-kits-2.jpg" },
     { name: "PSG", league: "Ligue 1", price: 150, image: "https://i.ibb.co/MjqQyj0/PSG-25-26-Home-Kit-Released-7.jpg" },
-    { name: "Arsenal FC", league: "Premier League", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/200px-Arsenal_FC.svg.png" },
+    { name: "Arsenal FC", league: "Premier League", price: 150, image: "https://i.ibb.co/3YmktMcG/arsenal-25-26-home-kit-14.jpg" },
     { name: "Juventus", league: "Serie A", price: 140, image: "https://i.ibb.co/DPmNwST7/juventus-25-26-home-kit-18.jpg" },
-    { name: "FC Barcelona", league: "La Liga", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/200px-FC_Barcelona_%28crest%29.svg.png" },
-    { name: "Chelsea FC", league: "Premier League", price: 140, image: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/200px-Chelsea_FC.svg.png" },
-    { name: "Bayern Munich", league: "Bundesliga", price: 150, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg/200px-FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg.png" },
+    { name: "FC Barcelona", league: "La Liga", price: 150, image: "https://i.ibb.co/tPLcwQtc/barca-25-26-home-kit-3.jpg" },
+    { name: "Chelsea FC", league: "Premier League", price: 140, image: "https://i.ibb.co/4nG6NkVP/cfc-25-26-home-kit-17.jpg" },
+    { name: "Bayern Munich", league: "Bundesliga", price: 150, image: "https://i.ibb.co/d0DbTsFD/bayern-25-26-home-kit-28.jpg" },
   ];
 
   return (
