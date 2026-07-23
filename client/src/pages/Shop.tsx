@@ -10,13 +10,13 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 const ALL_JERSEYS = [
-  { id: 1, name: "Ghana National Team", league: "National Teams", price: 170, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/200px-Flag_of_Ghana.svg.png", rating: 5 },
-  { id: 2, name: "Manchester United", league: "Premier League", price: 160, image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/200px-Manchester_United_FC_crest.svg.png", rating: 5 },
-  { id: 3, name: "Real Madrid", league: "La Liga", price: 160, image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/200px-Real_Madrid_CF.svg.png", rating: 5 },
-  { id: 4, name: "Manchester City", league: "Premier League", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/200px-Manchester_City_FC_badge.svg.png", rating: 5 },
-  { id: 5, name: "PSG", league: "Ligue 1", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/200px-Paris_Saint-Germain_F.C..svg.png", rating: 5 },
-  { id: 6, name: "Liverpool FC", league: "Premier League", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/200px-Liverpool_FC.svg.png", rating: 5 },
-  { id: 7, name: "Juventus", league: "Serie A", price: 140, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juventus_FC_2017_icon_%28black%29.svg/200px-Juventus_FC_2017_icon_%28black%29.svg.png", rating: 5 },
+  { id: 1, name: "Ghana National Team", league: "National Teams", price: 170, image: "https://i.ibb.co/7xXyNJBM/s-l1600.jpg", rating: 5 },
+  { id: 2, name: "Manchester United", league: "Premier League", price: 160, image: "https://i.ibb.co/Mbh019y/man-utd-25-26-home-kit-21.jpg", rating: 5 },
+  { id: 3, name: "Real Madrid", league: "La Liga", price: 160, image: "https://i.ibb.co/5Wpjf111/real-madrid-25-26-home-kit-30.jpg", rating: 5 },
+  { id: 4, name: "Manchester City", league: "Premier League", price: 150, image: "https://i.ibb.co/HfXRkzQb/man-city-25-26-home-kit-7.jpg", rating: 5 },
+  { id: 5, name: "PSG", league: "Ligue 1", price: 150, image: "https://i.ibb.co/MjqQyj0/PSG-25-26-Home-Kit-Released-7.jpg", rating: 5 },
+  { id: 6, name: "Liverpool FC", league: "Premier League", price: 150, image: "https://i.ibb.co/n81t1mRk/lc-25-26-kits-2.jpg", rating: 5 },
+  { id: 7, name: "Juventus", league: "Serie A", price: 140, image: "https://i.ibb.co/DPmNwST7/juventus-25-26-home-kit-18.jpg", rating: 5 },
   { id: 8, name: "Arsenal FC", league: "Premier League", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/200px-Arsenal_FC.svg.png", rating: 5 },
   { id: 9, name: "FC Barcelona", league: "La Liga", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/200px-FC_Barcelona_%28crest%29.svg.png", rating: 5 },
   { id: 10, name: "Chelsea FC", league: "Premier League", price: 140, image: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/200px-Chelsea_FC.svg.png", rating: 5 },
@@ -24,11 +24,11 @@ const ALL_JERSEYS = [
   { id: 12, name: "Inter Milan", league: "Serie A", price: 140, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/200px-FC_Internazionale_Milano_2021.svg.png", rating: 5 },
   { id: 13, name: "AC Milan", league: "Serie A", price: 140, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/200px-Logo_of_AC_Milan.svg.png", rating: 5 },
   { id: 14, name: "Borussia Dortmund", league: "Bundesliga", price: 140, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/200px-Borussia_Dortmund_logo.svg.png", rating: 4 },
-  { id: 15, name: "Tottenham", league: "Premier League", price: 140, image: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/200px-Tottenham_Hotspur.svg.png", rating: 4 },
+  { id: 15, name: "Tottenham", league: "Premier League", price: 140, image: "https://i.ibb.co/NgzbRwvL/spurs-25-26-home-kit-2.jpg", rating: 4 },
   { id: 16, name: "Atletico Madrid", league: "La Liga", price: 140, image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/200px-Atletico_Madrid_2017_logo.svg.png", rating: 4 },
   { id: 17, name: "Napoli", league: "Serie A", price: 140, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Napoli_2007.svg/200px-SSC_Napoli_2007.svg.png", rating: 4 },
-  { id: 18, name: "Tottenham Hotspur", league: "Premier League", price: 130, image: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/200px-Tottenham_Hotspur.svg.png", rating: 4 },
-  { id: 19, name: "Ligue 1 Teams", league: "Ligue 1", price: 130, image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/200px-Paris_Saint-Germain_F.C..svg.png", rating: 4 },
+  { id: 18, name: "Tottenham Hotspur", league: "Premier League", price: 130, image: "https://i.ibb.co/NgzbRwvL/spurs-25-26-home-kit-2.jpg", rating: 4 },
+  { id: 19, name: "Ligue 1 Teams", league: "Ligue 1", price: 130, image: "https://i.ibb.co/MjqQyj0/PSG-25-26-Home-Kit-Released-7.jpg", rating: 4 },
   { id: 20, name: "Other Clubs", league: "Other", price: 120, image: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/200px-Chelsea_FC.svg.png", rating: 3 },
 ];
 
