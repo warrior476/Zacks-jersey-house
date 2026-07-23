@@ -14,10 +14,10 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 function HeroSection() {
   const [currentJersey, setCurrentJersey] = useState(0);
   const featuredJerseys = [
-    { name: "Manchester United", league: "Premier League", price: 170, image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&q=80&auto=format&fit=crop" },
-    { name: "Ghana National Team", league: "AFCON", price: 170, image: "https://images.unsplash.com/photo-1551854838-212c9a5b7b24?w=400&q=80&auto=format&fit=crop" },
-    { name: "Real Madrid", league: "La Liga", price: 150, image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&q=80&auto=format&fit=crop" },
-    { name: "PSG", league: "Ligue 1", price: 150, image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&q=80&auto=format&fit=crop" },
+    { name: "Manchester United", league: "Premier League", price: 170, image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/200px-Manchester_United_FC_crest.svg.png" },
+    { name: "Ghana National Team", league: "AFCON", price: 170, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/200px-Flag_of_Ghana.svg.png" },
+    { name: "Real Madrid", league: "La Liga", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/200px-Real_Madrid_CF.svg.png" },
+    { name: "PSG", league: "Ligue 1", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/200px-Paris_Saint-Germain_F.C..svg.png" },
   ];
 
   useEffect(() => {
@@ -221,14 +221,14 @@ function FeaturedSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const jerseys = [
-    { name: "Ghana National Team", league: "AFCON", price: 170, image: "https://images.unsplash.com/photo-1551854838-212c9a5b7b24?w=400&q=80&auto=format&fit=crop" },
-    { name: "Liverpool FC", league: "Premier League", price: 150, image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=400&q=80&auto=format&fit=crop" },
-    { name: "PSG", league: "Ligue 1", price: 150, image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&q=80&auto=format&fit=crop" },
-    { name: "Arsenal FC", league: "Premier League", price: 150, image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=400&q=80&auto=format&fit=crop" },
-    { name: "Juventus", league: "Serie A", price: 140, image: "https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?w=400&q=80&auto=format&fit=crop" },
-    { name: "FC Barcelona", league: "La Liga", price: 150, image: "https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?w=400&q=80&auto=format&fit=crop" },
-    { name: "Chelsea FC", league: "Premier League", price: 140, image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=400&q=80&auto=format&fit=crop" },
-    { name: "Bayern Munich", league: "Bundesliga", price: 150, image: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=400&q=80&auto=format&fit=crop" },
+    { name: "Ghana National Team", league: "AFCON", price: 170, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/200px-Flag_of_Ghana.svg.png" },
+    { name: "Liverpool FC", league: "Premier League", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/200px-Liverpool_FC.svg.png" },
+    { name: "PSG", league: "Ligue 1", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/200px-Paris_Saint-Germain_F.C..svg.png" },
+    { name: "Arsenal FC", league: "Premier League", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/200px-Arsenal_FC.svg.png" },
+    { name: "Juventus", league: "Serie A", price: 140, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juventus_FC_2017_icon_%28black%29.svg/200px-Juventus_FC_2017_icon_%28black%29.svg.png" },
+    { name: "FC Barcelona", league: "La Liga", price: 150, image: "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/200px-FC_Barcelona_%28crest%29.svg.png" },
+    { name: "Chelsea FC", league: "Premier League", price: 140, image: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/200px-Chelsea_FC.svg.png" },
+    { name: "Bayern Munich", league: "Bundesliga", price: 150, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg/200px-FC_Bayern_M%C3%BCnchen_logo_%282002%E2%80%932017%29.svg.png" },
   ];
 
   return (
